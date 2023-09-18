@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body> 
+    <section>
+        <form id="form" autocomplete="off">
+            <p class="alert"></p>
+            <h3 class="title">To Do List</h3>
+            <div class="control">
+                 <input type="text" id="entry" placeholder="Write Here">
+                <button type="submit" class="btn submit-btn">Submit</button>
+                <button type="button" class="btn cancel-btn d-none">Cancel</button>
+            </div>
+        </form>
+    
+        <ul id="todo-list" class="list-container">
+        </ul>
+        <button class="btn clear-btn d-none">Clear Items</button>
+    </section>
+        <script src="./script/sript.js"></script>
+</body>
+</html>
